@@ -156,7 +156,7 @@ def diagnose_camera(ip):
         print("  Missing SPS/PPS headers - stream won't work with most players")
         print("  See RTSP_ISSUE.md for details and workarounds")
     except Exception as e:
-        print(f"✗ Error getting RTSP URLs: {e}")
+        print(f"✗ Error retrieving RTSP URLs: {e}")
     
     # Snapshot test
     print("\n11. Snapshot Capability")
